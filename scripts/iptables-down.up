@@ -1,5 +1,7 @@
-# scripts/iptables-down.up
 #!/bin/sh
+
+# scripts/iptables-down.up
+
 
 iptables -t nat -D PREROUTING -p tcp -j CLASH
 iptables -t nat -X CLASH
