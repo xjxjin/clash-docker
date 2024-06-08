@@ -1,5 +1,6 @@
-# scripts/entrypoint.sh
 #!/bin/sh
+# scripts/entrypoint.sh
+
 set -e
 
 CONFIG="/root/.config/clash"
