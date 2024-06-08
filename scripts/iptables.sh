@@ -1,5 +1,6 @@
-# scripts/iptables.sh
 #!/bin/sh
+# scripts/iptables.sh
+
 
 set -e
 iptables --policy FORWARD ACCEPT
